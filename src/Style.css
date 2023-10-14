@@ -1,0 +1,94 @@
+/*.container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+.card {
+    
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+.card:hover{
+    transform: scale(1.05);    
+}
+ .img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .title {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }*/
+.x{
+   display: flex; 
+}
+.x input{
+    padding: 5px;
+    border-radius: 10px;
+    width: 500px;
+}
+.xy{
+    background-color: #1b1818;
+    height: 100vh;
+    overflow: hidden;
+}
+.y{
+    color: rgb(150, 146, 146);
+}
+.aaa{
+  background-color: #1b1818 ;
+  color: rgb(150, 146, 146);
+}
+
+
+.anime-trending-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.anime-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.anime-card {
+  border: 0.1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.anime-card:hover{
+  transform: scale(1.05);
+  
+}
+
+.anime-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.anime-card h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.anime-card p {
+  font-size: 1rem;
+}
+

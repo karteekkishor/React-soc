@@ -14,7 +14,7 @@
   }
   a {
     color: azure;
-    /* background-color: green; */
+    
 
     text-decoration: none;
     font-size: 28px;
@@ -25,7 +25,7 @@
   .f {
     min-height: 100vh;
     align-items: center;
-    display: flex;
+    display: grid;
     justify-content: center;
     background-image: linear-gradient(to bottom right,#EDAFAA,#5B86E5);
   }
@@ -38,9 +38,11 @@
   }
   .hii{
     font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
+    text-align: left;
   }
   .hiii{
     padding-bottom: 100px;
   }
+

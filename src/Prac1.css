@@ -1,0 +1,8 @@
+.abc{
+    text-align:left;
+    position:relative;
+    left: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
